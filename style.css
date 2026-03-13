@@ -209,8 +209,8 @@ nav > ul > li > a:hover {
 }
 
 .primary-button btn{
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: black;
+  color: white;
 }
 
 .second-button {
