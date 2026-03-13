@@ -478,13 +478,13 @@ padding-top: 15px;
     margin-left: 60px;
 }
 
-h1{
+.content h1{
   color: white;
     font-size:48px;
     margin-bottom:20px;
 }
 
-p{
+.content p{
   color: white;
     font-size:18px;
 }
@@ -493,7 +493,7 @@ ul{
     margin-top:20px;
 }
 
-ul li{
+ul>li{
     margin:10px 0;
 }
 
