@@ -208,7 +208,7 @@ nav > ul > li > a:hover {
   margin-right: 10px;
 }
 
-.primary-button {
+.primary-button btn{
   background-color: #000000;
   color: #FFFFFF;
 }
