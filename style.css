@@ -126,6 +126,7 @@ nav > ul > li > a:hover {
   justify-content: space-around;
   gap: 80px;
   width: 100vw;
+  margin-left: 150px;
 }
 
 #hero-section > div > p > span > a {
@@ -218,6 +219,7 @@ nav > ul > li > a:hover {
 #sug-section {
   display: flex;
   margin-top: 80px;
+  margin-left: 150px;
 }
 
 #sug-section > div {
@@ -270,6 +272,7 @@ nav > ul > li > a:hover {
 
 #plan-section {
   margin-top: 80px;
+  margin-left: 150px;
 }
 
 #plan-main {
