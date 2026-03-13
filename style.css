@@ -384,7 +384,6 @@ nav > ul > li > a:hover {
   right: 700px;
   bottom: 260px;
 }
-
 .ride-with{
   padding-top: 65px;
   margin-left: 140px;
@@ -392,12 +391,37 @@ nav > ul > li > a:hover {
   width: 100%;
   height: 1100px;
 }
-/* .info > h1{
-  color: black;
-  margin-left: 700px;
-   padding-top: 150px; 
-  padding-bottom: 10px;
-} */
+.ride-container{
+  margin-left: 60px;
+display:flex;
+align-items:center;
+gap:140px;
+margin-bottom: 130px;
+}
+
+.ride-image img{
+/* width:300px; */
+border-radius:10px;
+}
+
+.ride-text h2{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.ride-text p{
+color:#555;
+line-height:1.6;
+margin-bottom:30px;
+}
+
+.ride-text a{
+text-decoration:none;
+color:black;
+border-bottom:1px solid black;
+padding-top: 15px;
+}
+
 .heading1{
   margin-top: 0px;
   margin-left: 700px;
@@ -440,55 +464,66 @@ nav > ul > li > a:hover {
   color: #ffffff;
   background-color: #000000;
 }
-.solution{
-  margin-top: 70px;
-  height: 580px;
-  width: 100%;
-  background-color: black;
-}
-.sol-info{
-  margin-left: 185px;
-  color: white;
-  padding-top: 60px;
-}
-.sol-info > .p1{
-  padding-top: 25px;
-}
-.sol-info > .p2{
-  padding-bottom: 25px;
-}
-.sol-info > .p1 > a{
-  color: white;
-}
-.sol-info > .p2 > a{
-  color: white;
-}
-.sol-info> .list{
-  padding-bottom: 30px;
-  margin-left: 45px;
-}
-.sol-info> .list > ul > li{
-  padding-top: 25px;
-}
-.sol-info>button{
-  border-radius: 10px;
-  height: 50px;
-  width: 140px;
-  color: rgb(0, 0, 0);
-}
-.sol-info>a{
-  padding-left: 20px;
-  color: white;
-}
-.solution>.sol-info> .list >ul>li>a{
-  color: white;
-  padding-top: 20px;
-  gap: 15px;
-}
-.solution-img{
-  margin-left: 800px;
+.business-section{
+    margin-top: 105px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:90px 100px;
+    background-color: black;
 }
 
+.content{
+    width:50%;
+    margin-left: 60px;
+}
+
+h1{
+  color: white;
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+p{
+  color: white;
+    font-size:18px;
+}
+
+ul{
+    margin-top:20px;
+}
+
+ul li{
+    margin:10px 0;
+}
+
+a{
+    color: white;
+    text-decoration:underline;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.btn{
+    padding:12px 25px;
+    border:none;
+    background:white;
+    color:black;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.link{
+    margin-left:20px;
+}
+
+.image img{
+    width:450px;
+    border-radius:8px;
+}
 
 footer {
   background-color: #000000;
